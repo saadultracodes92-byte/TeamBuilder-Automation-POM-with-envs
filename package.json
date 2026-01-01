@@ -1,0 +1,13 @@
+{
+  "name": "teambuilder-automation",
+  "version": "1.0.0",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
