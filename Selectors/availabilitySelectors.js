@@ -1,6 +1,11 @@
 const availabilitySelectors = {
-  // Add selectors for availability elements here
-  // Example: availabilityButton: '#availability-btn'
+  addAvailabilityButton: '#addAvailabilityBtn',
+  userDropdown: '#userDropdown',
+  dateInput: '#availabilityDate',
+  startTimeInput: '#startTime',
+  endTimeInput: '#endTime',
+  saveButton: '#saveAvailabilityBtn',
+  successMessage: '.success-message'
 };
 
 export default availabilitySelectors;
