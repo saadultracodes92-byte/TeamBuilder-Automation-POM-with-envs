@@ -1,8 +1,24 @@
 {
   "availability": {
     "user": "First User",
+    "location": "ABC office",
     "date": "2026-01-03",
+    "days": ["Mon", "Tue"],
     "startTime": "09:00",
     "endTime": "17:00"
+  },
+  "editAvailability": {
+    "startTime": "10:00",
+    "endTime": "18:00"
+  },
+  "unavailability": {
+    "date": "2026-01-07",
+    "startTime": "10:00",
+    "endTime": "15:00",
+    "reason": "Vacation"
+  },
+  "editUnavailability": {
+    "startTime": "11:00",
+    "endTime": "16:00"
   }
 }
