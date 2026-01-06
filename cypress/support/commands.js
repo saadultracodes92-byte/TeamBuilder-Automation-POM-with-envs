@@ -1,5 +1,5 @@
 // custom commands
-import loginSelectors from '../../Selectors/loginSelectors';
+import { loginSelectors } from '../../Selectors/loginSelectors';
 
 Cypress.Commands.add('login', (email, password) => {
   cy.visit(Cypress.env('baseUrl'));

@@ -1,6 +1,6 @@
 import { reportingSelectors } from '../Selectors/reportingSelectors';
 
-class ReportingPage {
+class ReportingPageClass {
   visit() {
     cy.visit('/reporting');
   }
@@ -34,4 +34,4 @@ class ReportingPage {
   }
 }
 
-export const ReportingPage = new ReportingPage();
+export const ReportingPage = new ReportingPageClass();
