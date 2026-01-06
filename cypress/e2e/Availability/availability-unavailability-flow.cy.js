@@ -9,8 +9,8 @@ describe('Availability & Unavailability Flow', () => {
   beforeEach(() => {
     // After login, navigate to availability module
     AvailabilityUnavailabilityPage.visit();
-    // Wait for loader to disappear (replace with actual loader selector if needed)
-    cy.wait(1000); // Replace with cy.get('.loader').should('not.exist') if you have a loader selector
+    // Wait for loader to disappear
+    cy.wait(1000); 
   });
 
   // --- Availability Test Cases ---
